@@ -3,9 +3,9 @@ spring:
     active: dev
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/dbgirl
-    username: root
-    password: 123456
+    url: jdbc:mysql://172.16.10.3:3306/gctos
+    username: gctos
+    password: gctos
   jpa:
     hibernate:
       ddl-auto: update

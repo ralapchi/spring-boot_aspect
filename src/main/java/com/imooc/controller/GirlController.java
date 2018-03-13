@@ -36,7 +36,6 @@ public class GirlController {
     @GetMapping(value = "/girls")
     public List<Girl> girlList() {
         logger.info("girlList");
-
         return girlRepository.findAll();
     }
 
